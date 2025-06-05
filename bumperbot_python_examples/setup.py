@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'simple_publisher = bumperbot_python_examples.simple_publisher:main', #define the execution file name=under which package.which python file:which function
+            'simple_qos_publisher = bumperbot_python_examples.simple_qos_publisher:main', #define the execution file name=under which package.which python file:which function
             'simple_subscriber = bumperbot_python_examples.simple_subscriber:main', #define the execution file name=under which package.which python file:which function
+            'simple_qos_subscriber = bumperbot_python_examples.simple_qos_subscriber:main', #define the execution file name=under which package.which python file:which function
             'simple_lifecycle = bumperbot_python_examples.simple_lifecycle:main', #define the execution file name=under which package.which python file:which function
         ],
     },
