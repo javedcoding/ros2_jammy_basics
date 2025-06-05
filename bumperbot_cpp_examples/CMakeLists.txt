@@ -21,11 +21,17 @@ add_executable(simple_subscriber src/simple_subscriber.cpp)
 ament_target_dependencies(simple_subscriber rclcpp std_msgs)
 add_executable(simple_lifecycle_node src/simple_lifecycle_node.cpp)
 ament_target_dependencies(simple_lifecycle_node rclcpp rclcpp_lifecycle std_msgs)
+add_executable(simple_qos_subscriber src/simple_qos_subscriber.cpp)
+ament_target_dependencies(simple_qos_subscriber rclcpp rclcpp_lifecycle std_msgs)
+add_executable(simple_qos_publisher src/simple_qos_publisher.cpp)
+ament_target_dependencies(simple_qos_publisher rclcpp rclcpp_lifecycle std_msgs)
 
 install(TARGETS
   simple_publisher
   simple_subscriber
   simple_lifecycle_node
+  simple_qos_publisher 
+  simple_qos_subscriber 
   DESTINATION lib/${PROJECT_NAME}
 )
 
