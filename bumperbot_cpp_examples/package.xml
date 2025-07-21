@@ -10,6 +10,9 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
   
   <depend>rclcpp</depend> <!-- Add the C++ ROS library -->
+  <depend>rclcpp_action</depend> <!-- Add the C++ ROS library -->
+  <depend>rclcpp_components</depend> <!-- Add the C++ ROS library -->
+  <depend>bumperbot_msgs</depend> <!-- Add the C++ ROS library -->
   <depend>std_msgs</depend> <!-- Add the C++ ROS library -->
   <depend>rclcpp_lifecycle</depend> <!-- Add the C++ ROS library -->
 
