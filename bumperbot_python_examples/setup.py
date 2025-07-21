@@ -25,6 +25,8 @@ setup(
             'simple_subscriber = bumperbot_python_examples.simple_subscriber:main', #define the execution file name=under which package.which python file:which function
             'simple_qos_subscriber = bumperbot_python_examples.simple_qos_subscriber:main', #define the execution file name=under which package.which python file:which function
             'simple_lifecycle = bumperbot_python_examples.simple_lifecycle:main', #define the execution file name=under which package.which python file:which function
+            'simple_action_server = bumperbot_python_examples.simple_action_server:main', #define the execution file name=under which package.which python file:which function
+            'simple_action_client = bumperbot_python_examples.simple_action_client:main', #define the execution file name=under which package.which python file:which function
         ],
     },
 )
