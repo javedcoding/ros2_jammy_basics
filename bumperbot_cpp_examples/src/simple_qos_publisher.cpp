@@ -8,7 +8,7 @@ using namespace std::chrono_literals;
 class SimpleQoSPublisher : public rclcpp::Node
 {
 public:
-    SimpleQoSPublisher() : Node("simple_publisher"), qos_profile_pub_(10), counter_(0)
+    SimpleQoSPublisher() : Node("simple_qos_publisher"), qos_profile_pub_(10), counter_(0)
     {
         declare_parameter<std::string>("reliability", "system_default"); //initiation of parameter delcaration
         declare_parameter<std::string>("durability", "system_default");
